@@ -2,7 +2,6 @@ from collections import deque
 class TreeNode:
     def __init__(self, key=None, parent=None, left=None, right=None):
         self.key = key
-        self.parent=parent
         self.left = left
         self.right = right #가리키는 노드들을 호출함
     def __str__(self):
